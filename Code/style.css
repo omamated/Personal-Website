@@ -1,0 +1,17 @@
+/* when adding stuff here I need to remember to put a '.' before classes that i made */
+body {
+    background-color: #1C2473 ;
+}
+.center-text {
+    color: #006638;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh; 
+}
+
+.hi {
+    color: #13BA6F;
+    display: flex;
+    transform: translate(-350px, -150px);
+}
