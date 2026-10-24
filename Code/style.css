@@ -11,7 +11,37 @@ body {
 }
 
 .hi {
+    font-family: "Playball", sans-serif;
+    font-size: 25px;
     color: #13BA6F;
+    transform: translate(500px, 400px);
+}
+
+.name {
+    font-family: "Lobster Two", sans-serif;
+    color: #5282C7;
+    font-size: clamp(40px, 8vw, 80px);
     display: flex;
-    transform: translate(-350px, -150px);
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh; 
+}
+
+.activities {
+    font-family: "Lobster Two", sans-serif;
+    font-size: large;
+    font-size: clamp(40px, 8vw, 65px);
+    color: #207bbd;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;
+    transform: translateY(-800px); 
+}
+
+.am {
+    font-family: "Playball", sans-serif;
+    font-size: 20px;
+    color: #13BA6F;
+    transform: translate(600px, -350px);
 }
