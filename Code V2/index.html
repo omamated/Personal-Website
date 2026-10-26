@@ -1,6 +1,16 @@
+<!--
+Ok so Im going to document this HTML but I will probably not document the rest of the HTML because most of it is the same except the cards which I will document The cards documentation can be viewed in the projects.html they were mainly reused everywhere else so yeah
+-->
+
 <!doctype html>
 <html lang="en">
   <head>
+    <!--
+added fonts, used poppins on google fonts
+Added the css sheet
+Added the fontawasome
+-->
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,13 +24,29 @@
     <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--
+Title, if anyone was wondering how to get the bar | do shift and press the key above enter on most keyboards or press shift on backslash
+-->
+
     <title>Om Patel | Developer Portfolio</title>
   </head>
+  <!--
+I had to put the flaslight somewhere so I just stuck it at the top
+-->
+
   <body>
     <div id="flashlight"></div>
+    <!--
+Header logo of my name so yeah 
+-->
+
     <header>
       <a href="#" class="logo">Om Patel</a>
       <nav>
+        <!--
+Put the links for the heading that help you navigate the website as a whole like the home page will take you to index.html etc etc
+-->
+
         <a href="index.html" class="active">Home</a>
         <a href="skills.html" class="active">Skills</a>
         <a href="projects.html" class="active">Projects</a>
@@ -30,8 +56,20 @@
     </header>
     <section class="home">
       <div class="home-content">
+        <!--
+Main heading introducting myself 
+-->
+
         <h1>Hey, it's <span>Om</span></h1>
+        <!--
+I give the typing text here with a span if you wonder how it works please check the styler.css file
+-->
+
         <h3 class="typing-text">I am a <span></span></h3>
+        <!--
+Brief description of myself
+-->
+
         <p>
           Hi I'm Om! I'm a student. I like to program and I want to become an
           engineer. I like to make things. I enjoy trying new technologies and
@@ -41,6 +79,10 @@
           ideas and make them real. This website is where I show my projects and
           my experiments and what I am learning as I go. I am open to any oppurtunities if you would like to talk to me please email me.
         </p>
+        <!--
+Put these social icons so people can see what I do and can contact me via discord
+-->
+
         <div class="social-icons">
           <a href="https://github.com/omamated/"
             ><i class="fa-brands fa-github"></i
@@ -49,6 +91,10 @@
             ><i class="fa-brands fa-discord"></i
           ></a>
         </div>
+        <!--
+Put more buttons here 4 of which take you to other pages which you can do at the top but I put it in the bottom just in case I also put my email button here the mailto: function opens the viewer's/reader's default email application and creates a draft to my email below
+-->
+
         <a href="mailto:ompatproducts@gmail.com" class="btn logo-btns">Email Me</a>
         <a href="skills.html" class="btn logo-btns"> Skills</a>
         <a href="projects.html" class="btn logo-btns">Projects</a>
@@ -56,6 +102,10 @@
         <a href="Certificates.html" class="btn logo-btns">Certificates</a>
       </div>
     </section>
+    <!--
+Basically telling html to go to flashlight.js for the flashlight to work/ in other words it basically links it up I also documented the javascript btw.
+-->
+
     <script src="flashlight.js"></script>
   </body>
 </html>
