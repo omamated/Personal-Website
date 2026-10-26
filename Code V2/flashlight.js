@@ -9,3 +9,25 @@ document.addEventListener("mousemove", (e) => {
     /* This sets a custom property in css so that it is ran at this x value, this also applies to the y values with the code written down below */
     flashlight.style.setProperty("--ypos", `${e.clientY}px`);
 });
+
+const secretName = document.getElementById("secret-name");
+
+secretName.addEventListener("click", (event) => {
+    event.preventDefault();
+
+    const oldMessage = document.getElementById("secret-message");
+
+    if (oldMessage) {
+        oldMessage.remove();
+    }
+
+    const message = document.createElement("div");
+    message.id = "secret-message";
+    message.textContent = "You found a cool secret. Keep looking around.";
+
+    document.body.appendChild(message);
+
+    setTimeout(() => {
+        message.remove();
+    }, 3000);
+});

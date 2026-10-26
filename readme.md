@@ -37,3 +37,5 @@ I also hope to gain many more certificates/awards.
 I also added a flashlight that follows your cursor for which I had to utilize javascript for the first time for this website, it was not that bad and was pretty easy to code.
 I documented all the code as well if you would like to check it out and view how it was made and possibly make your own.
 The typing feature actually looks like someone is genuinely typing it in notepadd rather than most basic websites that usually just have a blinking cursor and the text randomly changes.
+Easter egg: when u click my name in top left on index.html
+
