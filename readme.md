@@ -3,6 +3,7 @@
 # My Personal website
 I made this personal website to showcase what I've done and introduce myself to people. I have also seen many people with their own personal websites so I eventually decided to make my own. I decided to go with this theme because it seemed simple but yet appealed to me.
 For this readme I am mainly talking about V2 as I did not finish V1 because I realized how inefficient and poor it looked halfway into making it so I decided to restart it. 
+[https://om-patel.netlify.app/]([url](https://om-patel.netlify.app/))
 # Features
 It showcases 5 Html pages, the index/home, skills, Projects, about me, and certificates.
 # Index page 
