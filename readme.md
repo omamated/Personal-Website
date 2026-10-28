@@ -1,13 +1,11 @@
-
-
 # My Personal website
 I made this personal website to showcase what I've done and introduce myself to people. I have also seen many people with their own personal websites so I eventually decided to make my own. I decided to go with this theme because it seemed simple but yet appealed to me.
-For this readme I am mainly talking about V2 as I did not finish V1 because I realized how inefficient and poor it looked halfway into making it so I decided to restart it. 
-[https://om-patel.netlify.app/]([url](https://om-patel.netlify.app/))
+For this readme I am mainly talking about V2 as I did not finish V1 because I realized how inefficient and poor it looked halfway into making it so I decided to restart it.
+[https://om-patel.netlify.app/](https://om-patel.netlify.app/)
 # Features
 It showcases 5 Html pages, the index/home, skills, Projects, about me, and certificates.
 # Index page 
-<img width="1848" height="886" alt="image" src="https://github.com/user-attachments/assets/5741c566-cfe2-4654-bee9-eb19ca96e200" />
+<img width="1848" height="886" alt="image" src="https://github.com/user-attachments/assets/5741c566-cfe2-4654-bbe9-eb19ca96e200" />
 
 So the page features a navbar with the links to all the other pages, which is in all the other pages.
 It starts with an introduction of myself and it also contains typing text describing what I've been learning to do. 
@@ -45,4 +43,3 @@ I also added a flashlight that follows your cursor for which I had to utilize ja
 I documented all the code as well if you would like to check it out and view how it was made and possibly make your own.
 The typing feature actually looks like someone is genuinely typing it in notepadd rather than most basic websites that usually just have a blinking cursor and the text randomly changes.
 Easter egg: when u click my name in top left on index.html
-
